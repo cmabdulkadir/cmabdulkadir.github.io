@@ -1,49 +1,86 @@
+.container {
+  margin: 80px;
+}
+
 body {
-  background-color: lavender;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+background-color: #b694d2;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-  border-top: 1px solid;
-  margin: 1px;
-  padding-top: 12px;
+border-top: 1px solid;
+margin: 1px;
+padding-top: 12px;
 }
 
 .my-name {
-  font-size: 40px;
-  margin-top: 20px;
-  font-style: oblique;
+font-size: 40px;
+margin-top: 20px;
+font-style: oblique;
 }
 
 .my-info {
-  line-height: auto;
-  font-style: oblique;
+line-height: auto;
+font-style: oblique;
 }
 
 .exp-header1 h3 {
-  text-decoration: underline;
-  margin-bottom: 5px;
+text-decoration: underline;
+margin-bottom: 5px;
 }
 
 .exp-header2 h3 {
-  text-decoration: underline;
-  margin-bottom: -15px;
+text-decoration: underline;
+margin-bottom: -15px;
 }
 
 .exp-header2 h4 {
-  margin-bottom: 1px;
+margin-bottom: 1px;
+}
+
+.exp-header2 li, .exp-header1 li {
+  list-style-type: none;
 }
 
 .exp-header3 h3 {
-  text-decoration: underline;
-  margin-bottom: -15px;
+text-decoration: underline;
+margin-bottom: -15px;
 }
 
 .exp-header3 h4 {
-  margin-bottom: -19px;
+margin-bottom: -19px;
 }
 
 .exp-header3 h6 {
-  font-size: 11px;
+font-size: 11px;
 }
+
+.timeline {
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style-type: none;
+}
+
+.timeline-date {
+  display: flex;
+}
+.intro {
+text-align: center;
+list-style-type: none;
+border-bottom: 1px solid;
+
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
